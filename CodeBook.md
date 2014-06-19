@@ -1,7 +1,9 @@
 #CodeBook for run_analysis.R for Getting and Cleaning Data Course Project
 
 activityname
-    Names of the activity the subject was performing at time of measurement    
+
+    Names of the activity the subject was performing at time of measurement
+    
         LAYING              
         SITTING  
         STANDING            
