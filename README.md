@@ -1,4 +1,4 @@
-##README for run_analysis.R for Getting and Cleaning Data Course Project
+#README for run_analysis.R for Getting and Cleaning Data Course Project
 
 run_analysis.R pulls data from this data set https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and creates a tidy data version of it, which only contains the averages of the features in it that are means and standard deviations. This data has two subsets, test data and train data, so this data is combined by our function and tidied to create tidydata.txt. The final output is tidydata2.txt, which is the reshaped averages of the tidydata.txt data.
 
@@ -6,7 +6,7 @@ Below are the steps run_analysis.R takes to get this output. I have put in paran
 
 1. First run_analysis.R sets up directories and checks to see if the first part of the function was ran already. The first part takes some time, so if it sees you already have the file output from this part of the function (tidydata.txt) it asks if you want to overwrite it, and if not, it loads the previously saved data into memory to speed up the function. (lines 1-31)
 
-#NOTE: If you already have a different tidydata.txt file in your working directory it will overwrite that.
+##NOTE: If you already have a different tidydata.txt file in your working directory it will overwrite that.
 
 2. If that data didn't already exist, it downloads the dataset to a 'data' directory and sets the folders and files in that directory as variables to make them easier to work with (lines 32-69)
 

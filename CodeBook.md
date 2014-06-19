@@ -1,4 +1,4 @@
-##CodeBook for run_analysis.R for Getting and Cleaning Data Course Project
+#CodeBook for run_analysis.R for Getting and Cleaning Data Course Project
 
 activityname
     Names of the activity the subject was performing at time of measurement    
@@ -10,7 +10,9 @@ activityname
         WALKING_UPSTAIRS
 
 subjectnumber
+
     Integer indicating which subject is being measured
+
         1..30
         
 timebodyaccmeanxavg
