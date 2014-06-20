@@ -3,11 +3,6 @@ tidy <- function() {
     ##This library is needed for reshaping the data later
     library(reshape2)
     
-    ##Set active directory if not already set
-    if(getwd()!="C:/Users/Maxsparrow/Documents/Data Scientist Specialization/Getting and Cleaning Data") {
-        setwd("./Data Scientist Specialization/Getting and Cleaning Data")
-    }    
-    
     ##Stores m as 1 to consider user prompt as y to overwrite data by default
     m <- 1
     
